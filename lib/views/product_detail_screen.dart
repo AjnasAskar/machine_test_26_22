@@ -340,7 +340,7 @@ class _CartBtn extends StatelessWidget {
     return Container(
       height: 50,
       width: context.sw(size: 0.8),
-      margin: const EdgeInsets.only(bottom: 20),
+      margin: const EdgeInsets.only(bottom: 20, top: 10),
       child: ElevatedButton.icon(
         style: ElevatedButton.styleFrom(
             primary: ThemePalette.primaryColor,

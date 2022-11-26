@@ -120,10 +120,7 @@ class _ProductCard extends StatelessWidget {
         Navigator.pushNamed(context, RouteGenerator.routeProductDetailScreen,
                 arguments: RoutArguments(
                     id: searchProductMobile?.societyproductID,
-                    title: searchProductMobile?.title))
-            .then((value) => context
-                .read<AppDataProvider>()
-                .updateLoaderState(LoaderState.loaded));
+                    title: searchProductMobile?.title));
       },
       child: Container(
         decoration: BoxDecoration(
